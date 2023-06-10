@@ -1,5 +1,5 @@
 <template>
-    <div>git king</div>
+    <div>git master</div>
 </template>
 
 <script setup></script>
