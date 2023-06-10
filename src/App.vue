@@ -1,9 +1,13 @@
 <template>
-    <div>git master</div>
+    <div>
+
+    </div>
 </template>
 
 <script setup>
-const onDelete = () => {};
+
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
