@@ -2,6 +2,8 @@
     <div>git master</div>
 </template>
 
-<script setup></script>
+<script setup>
+const onDelete = () => {};
+</script>
 
 <style lang="scss" scoped></style>
