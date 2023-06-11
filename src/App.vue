@@ -1,11 +1,5 @@
 <template>
     <div>hello world</div>
-<<<<<<< HEAD
-</template>
-
-<script setup></script>
-
-=======
     <h1>{{ counterStore.count }}</h1>
     <button @click="counterStore.increment">Button Add</button>
 </template>
@@ -29,5 +23,4 @@ onMounted(() => {
 });
 </script>
 
->>>>>>> dev2023/06/11
 <style lang="scss" scoped></style>
