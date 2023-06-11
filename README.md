@@ -1,14 +1,29 @@
-# vite-v3-xiaotumall
+# vite-v3-XiaoTuXianMall
 
 This template should help get you started developing with Vue 3 in Vite.
+
+## Please use Ctrl + Shift + V to preview the Doc
+
+
 
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
+
+
+
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+
+
+## Create Vue3 Project
+
+```sh
+npm init vue@latest
+```
 
 ## Project Setup
 
