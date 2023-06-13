@@ -1,26 +1,14 @@
 <template>
-    <div>hello world</div>
-    <h1>{{ counterStore.count }}</h1>
-    <button @click="counterStore.increment">Button Add</button>
+    <el-row class="mb-4">
+        <el-button>Default</el-button>
+        <el-button type="primary">Primary</el-button>
+        <el-button type="success">Success</el-button>
+        <el-button type="info">Info</el-button>
+        <el-button type="warning">Warning</el-button>
+        <el-button type="danger">Danger</el-button>
+    </el-row>
 </template>
 
-<script setup>
-import { useCounterStore } from "./stores/counters";
-import { onMounted } from "vue";
-import { storeToRefs } from "pinia";
-
-const counterStore = useCounterStore();
-console.log(counterStore);
-
-// 响应式数据需要storeToRefs来解构
-const { count, double } = storeToRefs(counterStore);
-
-// 方法需要单独结构
-const { increment } = counterStore;
-
-onMounted(() => {
-    counterStore.getList();
-});
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
