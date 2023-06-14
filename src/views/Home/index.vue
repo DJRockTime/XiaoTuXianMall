@@ -1,7 +1,9 @@
 <template>
-    <RouterView />
+    <div>Content</div>
 </template>
 
-<script setup></script>
+<script setup name="">
+
+</script>
 
 <style lang="scss" scoped></style>

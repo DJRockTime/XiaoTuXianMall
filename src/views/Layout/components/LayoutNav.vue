@@ -1,5 +1,7 @@
 <template>
-    <RouterView />
+    <div class="layout-header">
+      
+    </div>
 </template>
 
 <script setup></script>
