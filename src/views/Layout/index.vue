@@ -1,6 +1,6 @@
 <template>
-    <LayoutHeader />
     <LayoutNav />
+    <LayoutHeader />
     <RouterView />
     <LayoutFooter />
 </template>

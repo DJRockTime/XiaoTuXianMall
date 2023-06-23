@@ -1,9 +1,11 @@
 <template>
-    <div>Content</div>
+    <div class="content center">Content</div>
 </template>
 
-<script setup name="">
+<script setup name=""></script>
 
-</script>
-
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.content {
+    padding: 50px 0;
+}
+</style>
